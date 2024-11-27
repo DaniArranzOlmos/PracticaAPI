@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fake Store API Example</title>
+    <title>Ejemplo de API de Fake Store</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <h1>Fake Store</h1>
+        <h1>Tienda Falsa</h1>
+        <nav id="nav-categorias">
+            <ul>
+                <li><a href="#" class="enlace-categoria">Todos los Productos</a></li>
+                <!-- Las categorías serán añadidas aquí por JavaScript -->
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section id="products">
-            <h2>Products</h2>
-            <div id="product-list"></div>
+        <section id="productos">
+            <h2>Productos</h2>
+            <div id="lista-productos"></div>
         </section>
     </main>
+
     <script src="assets/js/script.js"></script>
 </body>
 
